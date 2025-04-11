@@ -1,0 +1,78 @@
+
+    body {
+     background-color: #cc8bb2;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      text-align: center;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    input, select, button {
+      padding: 10px;
+      margin: 5px;
+      font-size: 16px;
+    }
+
+    ul {
+      padding: 0;
+    }
+
+    .task {
+      padding: 10px;
+      margin: 5px 0;
+      list-style: none;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .Work {
+      background-color: #fff9c4;
+    }
+
+    .Personal {
+      background-color: #c8e6c9;
+    }
+
+    .Urgent {
+      background-color: #ffcdd2;
+    }
+
+    .circle {
+      height: 12px;
+      width: 12px;
+      border-radius: 50%;
+      margin-right: 10px;
+      display: inline-block;
+    }
+
+    .circle.Work {
+      background-color: yellow;
+    }
+
+    .circle.Personal {
+      background-color: green;
+    }
+
+    .circle.Urgent {
+      background-color: red;
+    }
+
+    .task-text {
+      display: flex;
+      align-items: center;
+      flex: 1;
+    }

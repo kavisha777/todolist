@@ -6,21 +6,21 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body >
+<body>
   <div class="container">
     <h2>My To-Do List</h2>
 
-    <input type="text" id="taskInput" placeholder="Enter a task">
+    <input type="text" id="taskInput" placeholder="Enter a task" />
     <select id="taskType">
-      <option value="medium">medium</option>
-      <option value="low">low</option>
-      <option value="high">high</option>
+      <option value="Work">medium</option>
+      <option value="Personal">low</option>
+      <option value="Urgent">high</option>
     </select>
     <button onclick="addTask()">Add Task</button>
-
+    <p class="text-lg font-medium my-4"> <span id="taskCount"></span></p>
     <ul id="taskList"></ul>
   </div>
-   <script src="script.js"></script>
 
+  <script src="script.js"> </script>
 </body>
 </html>
